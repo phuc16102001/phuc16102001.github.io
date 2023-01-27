@@ -99,6 +99,12 @@ i {
   width: 70%;
 }
 
+.work-logo {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
 .pop-description {
   margin-top: 5%;
 }
