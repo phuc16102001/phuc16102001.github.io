@@ -203,6 +203,12 @@ i:hover {
     display: none;
   }
 
+  .footer {
+    background: var(--primary-color);
+    text-align: center;
+    padding: 10px;
+  }
+
   .pop-bg {
     top: 25vh;
     left: 10vw;
@@ -215,6 +221,11 @@ i:hover {
   .slider {
     position: fixed;
     top: 0;
+  }
+
+  .footer {
+    visibility: hidden;
+    display: none;
   }
 }
 
