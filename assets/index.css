@@ -21,12 +21,6 @@ code {
     monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .square {
-    animation: wipe-enter 1s infinite;
-  }
-}
-
 small {
   color: grey;
 }
@@ -78,12 +72,63 @@ i {
 }
 
 .section-content {
-  padding: 25px 0px 0px 25px;
+  padding: 25px 0px 0px 0px;
   text-align: justify;
 }
 
 .main-content {
   background-color: var(--light-color);
+}
+
+.card {
+  transition: .5s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.pop-bg {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  height: 36vh;
+  width: 70%;
+}
+
+.pop-description {
+  margin-top: 5%;
+}
+
+.pop-btn {
+  margin-top: 5%;
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #000;
+}
+
+.project-btn {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  /* border: solid 1px #000; */
+}
+
+.pop-btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: solid 1px #000;
+}
+
+.pop-btn:active,
+.pop-btn:active:focus,
+.pop-btn:target {
+  background-color: var(--primary-color);
+  color: #fff;
+  box-shadow: 5px 10px #888888;
+  border: solid 1px #000;
 }
 
 ul.timeline {
@@ -124,43 +169,25 @@ i:hover {
   color: var(--sub-color);
 }
 
-.pop-bg {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  position: absolute;
-  top: 200px;
-  left: 50px;
-  height: 36vh;
-  width: 70%;
+@media only screen and (max-width: 600px) {
+  .slider {
+    visibility: hidden;
+    display: none;
+  }
+
+  .pop-bg {
+    top: 25vh;
+    left: 10vw;
+    height: 50vh;
+    width: 80vw;
+  }
 }
 
-.pop-title {
-}
-
-.pop-description {
-  margin-top: 5%;
-}
-
-.pop-btn {
-  margin-top: 5%;
-  background-color: #fff;
-  color: #000;
-  border: solid 1px #000;
-}
-
-.pop-btn:hover {
-  background-color: var(--primary-color);
-  color: #fff;
-  border: solid 1px #000;
-}
-
-.pop-btn:active,
-.pop-btn:active:focus,
-.pop-btn:target {
-  background-color: var(--primary-color);
-  color: #fff;
-  box-shadow: 5px 10px #888888;
-  border: solid 1px #000;
+@media only screen and (min-width: 600px) {
+  .slider {
+    position: fixed;
+    top: 0;
+  }
 }
 
 .App {
