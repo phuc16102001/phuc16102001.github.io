@@ -9,29 +9,24 @@
     <link rel="manifest" href="manifest.json" />
     <link rel="icon" type="image/png" href="img/logo/hcmus.png" />
 
+    <!-- Animate -->
     <link rel="stylesheet" href="assets/animate/animate.min.css" />
 
+    <!-- Fontawesome -->
     <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.css" />
     <link rel="stylesheet" href="assets/fontawesome/css/brands.css" />
     <link rel="stylesheet" href="assets/fontawesome/css/solid.css" />
 
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-    <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/custom/bootstrap.css" />
+    <script src="assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-    <link rel="stylesheet" href="assets/index.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/custom/custom.css" />
     <title>Vuong Phuc | Fullstack Web Developer</title>
-
-    <!-- Animation trigger observation -->
-    <script>
-      const element = document.querySelector(".monster");
-      const observer = new IntersectionObserver((entries) => {
-        element.classList.toggle("animation", entries[0].isIntersecting);
-      });
-      observer.observe(element);
-    </script>
   </head>
   <body>
-    <div class="h-100 col-sm-3 offset-sm-1 text-center slider py-2 px-4">
+    <div class="h-100 col-md-3 offset-md-1 text-center slider py-2 px-4">
       <div id="basic-slider">
         <img
           class="animate__animated animate__fadeIn rounded-circle avatar img-thumbnail my-2"
@@ -110,7 +105,7 @@
         </div>
       </div>
     </div>
-    <div class="offset-sm-4 col-sm-7 main-content">
+    <div class="offset-md-4 col-md-7 main-content">
       <div id="home" class="carousel slide">
         <div class="carousel-indicators">
           <button
@@ -743,12 +738,12 @@
             </li>
           </ul>
         </div>
-      </div>
 
-      <div>
-        <p align="center">
-          <small> Do Vuong Phuc &copy; 2023 </small>
-        </p>
+        <div>
+          <p align="center">
+            <small>- Do Vuong Phuc &copy; 2023 -</small>
+          </p>
+        </div>
       </div>
 
       <div class="footer animate__animated animate__fadeInUp">

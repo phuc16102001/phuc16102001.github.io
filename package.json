@@ -4,11 +4,10 @@
   "private": true,
   "homepage": "https://phuc16102001.github.io/",
   "dependencies": {
-    "nodemon": "^2.0.20",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "nodemon index.html"
+    "compile-css": "sass assets/custom/bootstrap.scss assets/custom/bootstrap.css"
   },
   "eslintConfig": {
     "extends": [
