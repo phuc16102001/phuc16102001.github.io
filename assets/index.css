@@ -210,9 +210,9 @@ i:hover {
   }
 
   .pop-bg {
-    top: 25vh;
+    top: 35vh;
     left: 10vw;
-    height: 50vh;
+    height: 30vh;
     width: 80vw;
   }
 }
