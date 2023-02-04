@@ -30,7 +30,7 @@ small {
 }
 
 .basic-slider {
-  max-height: 30%;
+  max-height: 40%;
 }
 
 .carousel {
@@ -42,11 +42,11 @@ small {
 }
 
 .nav {
-  max-height: 50%;
+  max-height: 65%;
 }
 
 .contact {
-  max-height: 10%;
+  height: 100%;
 }
 
 .avatar {
@@ -213,7 +213,7 @@ i:hover {
   color: var(--sub-color);
 }
 
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 950px) {
   .slider {
     visibility: hidden;
     display: none;
@@ -226,7 +226,7 @@ i:hover {
   }
 }
 
-@media only screen and (min-width: 880px) {
+@media only screen and (min-width: 950px) {
   .slider {
     position: fixed;
     top: 0;
