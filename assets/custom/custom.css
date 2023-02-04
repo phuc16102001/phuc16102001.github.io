@@ -29,24 +29,12 @@ small {
   color: var(--sub-color);
 }
 
-.basic-slider {
-  max-height: 40%;
-}
-
 .carousel {
   min-height: 100vh;
 }
 
 .carousel-img {
   height: 100vh;
-}
-
-.nav {
-  max-height: 65%;
-}
-
-.contact {
-  height: 100%;
 }
 
 .avatar {
