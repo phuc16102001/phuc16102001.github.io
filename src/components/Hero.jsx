@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Hero = () => {
   return (
     <div id="home" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">

@@ -18,9 +18,6 @@ const Sidebar = () => {
       </div>
       <ul className="nav flex-column py-3">
         <li className="nav-item animate__fadeInLeft animate__animated">
-          <a href="#home" className="nav-link">Home</a>
-        </li>
-        <li className="nav-item animate__fadeInLeft animate__animated">
           <a href="#about" className="nav-link">About me</a>
         </li>
         <li className="nav-item animate__fadeInLeft animate__animated">
@@ -36,7 +33,10 @@ const Sidebar = () => {
           <a href="#projects" className="nav-link">Selected projects</a>
         </li>
         <li className="nav-item animate__fadeInLeft animate__animated">
-          <a href="#awards" className="nav-link">Awards & certificates</a>
+          <a href="#certificates" className="nav-link">Certificates</a>
+        </li>
+        <li className="nav-item animate__fadeInLeft animate__animated">
+          <a href="#awards" className="nav-link">Awards</a>
         </li>
         <li className="nav-item animate__fadeInLeft animate__animated">
           <a href="#publications" className="nav-link">Publications</a>

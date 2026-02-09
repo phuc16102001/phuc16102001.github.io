@@ -1,5 +1,3 @@
-import React from 'react';
-
 const publicationsData = [
   {
     logo: "logo/ieee-wcci-2024.png",

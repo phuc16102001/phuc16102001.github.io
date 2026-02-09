@@ -2,6 +2,14 @@ import React from 'react';
 
 const awardsData = [
   {
+    logo: "award/ms-hackathon-2025.png",
+    title: "Microsoft Global Hackathon 2025 - Innovative AI Project",
+    titleUrl: "https://www.credly.com/badges/9ee446bd-d7d5-47e6-8cb7-e165b2dc071d",
+    organization: "The Microsoft Garage",
+    organizationUrl: "https://www.credly.com/org/microsoftgarage",
+    description: "Participated in the world's largest hackathon and demonstrated collaboration, inspiration, and creativity through an Innovative AI Project."
+  },
+  {
     logo: "logo/hcmus.png",
     title: "Valedictorian graduated with the highest GPA of class 2019",
     titleUrl: "certificate/graduate-list.pdf",
@@ -16,14 +24,6 @@ const awardsData = [
     organization: "Upwork",
     organizationUrl: "https://www.upwork.com/",
     description: "Top Rated highlights professionals who have built a strong reputation on Upwork by getting positive feedback from their clients, time after time. They represent the top 10% of talent on Upwork."
-  },
-  {
-    logo: "certificate/ielts.png",
-    title: "IELTS 7.0 - English Proficiency Exam",
-    titleUrl: "certificate/ielts-certificate.pdf",
-    organization: "British Council",
-    organizationUrl: "https://www.britishcouncil.vn/en/exam/ielts",
-    description: "IELTS is an English language proficiency exam that reports at all levels from low intermediate to very advanced. There is a general and academic version."
   },
   {
     logo: "logo/near.png",
@@ -77,7 +77,7 @@ const Awards = () => {
   return (
     <>
       <div className="section-heading" id="awards">
-        <h3>Awards & certificates</h3>
+        <h3>Awards</h3>
       </div>
       <div className="section-content">
         {awardsData.map((award, index) => (

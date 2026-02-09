@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Sidebar from './components/Sidebar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -7,6 +7,7 @@ import Work from './components/Work';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Awards from './components/Awards';
+import Certificates from './components/Certificates';
 import Publications from './components/Publications';
 import Footer from './components/Footer';
 
@@ -14,6 +15,8 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
   useEffect(() => {
     // Initialize Bootstrap carousel after component mounts
     const carousel = document.querySelector('#home');
@@ -23,7 +26,19 @@ function App() {
         ride: 'carousel'
       });
     }
+
+    // Show/hide scroll-to-top button based on scroll position
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 300);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <div className="App">
@@ -36,11 +51,17 @@ function App() {
           <Work />
           <Skills />
           <Projects />
+          <Certificates />
           <Awards />
           <Publications />
           <Footer />
         </div>
       </div>
+      {showScrollTop && (
+        <button className="scroll-to-top" onClick={scrollToTop} aria-label="Scroll to top">
+          <i className="fa-solid fa-arrow-up"></i>
+        </button>
+      )}
     </div>
   );
 }
