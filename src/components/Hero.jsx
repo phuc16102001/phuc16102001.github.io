@@ -8,7 +8,7 @@ const Hero = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={`${process.env.PUBLIC_URL}/img/others/hcmus.jpg`} className="d-block carousel-img" alt="resume" />
+          <img src={`${process.env.PUBLIC_URL}/img/others/hcmus.gif`} className="d-block carousel-img" alt="resume" />
           <div className="pop-bg animate__animated animate__fadeInUp">
             <h1 className="pop-title">Hi! This is Do Vuong Phuc</h1>
             <div className="pop-description">
