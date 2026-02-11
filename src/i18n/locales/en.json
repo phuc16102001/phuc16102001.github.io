@@ -1,0 +1,165 @@
+{
+  "name": "Do Vuong Phuc",
+  "title": "Software Engineer II @ Microsoft",
+  
+  "nav": {
+    "about": "About me",
+    "education": "Education",
+    "work": "Working experience",
+    "skills": "Technical skills",
+    "projects": "Selected projects",
+    "certificates": "Certificates",
+    "awards": "Awards",
+    "publications": "Publications"
+  },
+  
+  "hero": {
+    "greeting": "Hi! This is Do Vuong Phuc",
+    "intro": "A software engineer at Microsoft with the enthusiasm in AI",
+    "graduated": "Graduated as a valedictorian from the University of Science.",
+    "resumeBtn": "My resume",
+    "projectsTitle": "Selected projects",
+    "projectsDesc1": "Not only interest in software technologies",
+    "projectsDesc2": "I also research on machine learning models.",
+    "projectsBtn": "Projects",
+    "expTitle": "My experience",
+    "expDesc1": "I always willing to contribute my talent for society.",
+    "expDesc2": "Check-out my working experience!",
+    "expBtn": "Working experience"
+  },
+  
+  "about": {
+    "title": "About me",
+    "p1": "A backend engineer with 3 YoE in software engineer field. I am goal-oriented, dedicated to my work, and always open to new experiences, especially those related to my field of study, to enhance my coding practice.",
+    "p2": "I have gained many from being a leader of group projects, which is why problem-solving, presentation and leadership skills are not weaknesses of mine. I have a strong passion for software engineering and computer science, and I hope I can contribute to the development of society."
+  },
+  
+  "education": {
+    "title": "Education",
+    "degree": "Bachelor in Information Technology",
+    "period": "2019 - 2023",
+    "university": "University of Science",
+    "major": "Major in Artificial Intelligent (Computer Science)",
+    "achievement": "Valedictorian graduated (Top 1 with GPA 3.94/4)"
+  },
+  
+  "work": {
+    "title": "Working experience",
+    "microsoft": {
+      "title": "Software Engineer",
+      "period": "August 2024 - Now",
+      "company": "Microsoft",
+      "market": "International market",
+      "description": "Using DotNet framework and Microsoft systems (e.g. Azure) to enhance the Exchange server with mail-related system. Develop a system to support on-call engineers when the incidents occurred. Leverage Copilot to give diagnostics and take action on the incidents automatically."
+    },
+    "naver": {
+      "title": "Backend Engineer",
+      "period": "April 2023 - July 2024",
+      "company": "Naver",
+      "market": "Korea market",
+      "description": "Design and develop large-scale zero-downtime systems with millions users. Using Java Spring & distributed systems on Naver cloud to implement social media platforms (Naver BBoom and Naver Blog). Responsible with DevOps task (e.g. build CI/CD pipeline). Building Slack chatbot with Slack Bolt to monitor the service when deploying."
+    },
+    "upwork": {
+      "title": "Freelance Software/AI Engineer",
+      "period": "Nov 2022 - March 2023",
+      "company": "Upwork",
+      "market": "International market",
+      "description": "Develop software tools and utilities (e.g. syntax checker, trading probabilistic calculator, simple compilers and algorithms to solve large data problems). Build dashboard to visualize data, analyze and provide insight from the dashboard. Build machine learning models and fine-tune them to achieve a good measure metrics (accuracy, F1-score, etc)"
+    },
+    "vbpo": {
+      "title": "Fullstack Blockchain Intern",
+      "period": "May 2022 - Oct 2022",
+      "company": "VBPO JSC",
+      "market": "Vietnam market",
+      "description": "Research blockchain technologies and develop a blockchain-based application to digitalize real estates. Focus mainly in backend development and smart contract implement with NEAR and Aurora Engine."
+    }
+  },
+  
+  "skills": {
+    "title": "Skills",
+    "language": "Programming languages",
+    "backend": "Backend & Frameworks",
+    "frontend": "Frontend",
+    "database": "Databases & Storage",
+    "devops": "DevOps & CI/CD",
+    "cloud": "Cloud",
+    "tools": "Tools & Collaboration",
+    "ds": "Distributed systems",
+    "ml": "Machine learning"
+  },
+  
+  "projects": {
+    "title": "Selected projects"
+  },
+  
+  "certificates": {
+    "title": "Certificates",
+    "ielts": {
+      "title": "IELTS 7.0 - English Proficiency Exam",
+      "organization": "British Council",
+      "description": "IELTS is an English language proficiency exam that reports at all levels from low intermediate to very advanced. There is a general and academic version."
+    },
+    "jlpt": {
+      "title": "JLPT N3 - Japanese Language Proficiency Test",
+      "organization": "Japan Foundation",
+      "description": "The Japanese-Language Proficiency Test (JLPT) is a standardized test to evaluate and certify Japanese language proficiency for non-native speakers. N3 is the intermediate level, demonstrating the ability to understand Japanese used in everyday situations to a certain degree."
+    }
+  },
+  
+  "awards": {
+    "title": "Awards",
+    "msHackathon": {
+      "title": "Microsoft Global Hackathon 2025 - Innovative AI Project",
+      "organization": "The Microsoft Garage",
+      "description": "Participated in the world's largest hackathon and demonstrated collaboration, inspiration, and creativity through an Innovative AI Project."
+    },
+    "valedictorian": {
+      "title": "Valedictorian graduated with the highest GPA of class 2019",
+      "organization": "University of Science",
+      "description": "Anually received scholarship excellent students. Graduated valendictorian with the highest GPA (3.94/4) in the Information technology department over all the programmes."
+    },
+    "upwork": {
+      "title": "Top-rated Upwork lancer",
+      "organization": "Upwork",
+      "description": "Top Rated highlights professionals who have built a strong reputation on Upwork by getting positive feedback from their clients, time after time. They represent the top 10% of talent on Upwork."
+    },
+    "near": {
+      "title": "NEAR Advanced Development",
+      "organization": "GFS Blockchain",
+      "description": "A course on how to use NEAR Protocol to write smart contracts and integrate to an application. Furthermore, Aurora Engine and Octopus Network are also covered in the course. At the end of this course, learners must propose an software that use blockchain and build the prototype."
+    },
+    "stepStem": {
+      "title": "STEP STEM Alive 2019 - 4th runner-up",
+      "organization": "Science Center Singapore",
+      "description": "The programme sought to promote interest in STEM education and harness creativity in translating cross-curriculum knowledge into solutions for real-world issues to prepare participants to be self-directed learners, active solution contributors to the United Nations Sustainable Development Goals."
+    },
+    "knime": {
+      "title": "Basic Proficiency in KNIME Analytics Platform",
+      "organization": "KNIME",
+      "description": "Earners of this certificate have passed the L1 examination of KNIME Certification Program. Thereby they have demonstrated knowledge of the following topics: General concepts of KNIME Analytics Platform, importing/exporting data, data manipulation, and data aggregation."
+    },
+    "shopee": {
+      "title": "Shopee Code League 2022 - Participant",
+      "organization": "Shopee Singapore",
+      "description": "Shopee Code League is a 2-week coding league consisting of two rounds of coding competitions, open to all students and professionals. Participants will put their coding skills to the test by solving challenging algorithmic puzzles designed by the Shopee Engineering team."
+    }
+  },
+  
+  "publications": {
+    "title": "Publications",
+    "ieee": {
+      "title": "Unifying Global and Local Scene Entities Modelling for Precise Action Spotting",
+      "organization": "IEEE IJCNN 2024 | Yokohama Japan",
+      "description": "Propose a method to improve current action spotting vision models by unifying global and local feature. The method not only help AI model improving the accuracy but also more explainable By applying the GLIP - a zero-shot learning model of Google, the method can apply on arbitrary sports."
+    },
+    "medium": {
+      "title": "Product recommendation for Huimitu ecommerce using Association Rule with KNIME",
+      "organization": "Medium | Low code for data science",
+      "description": "Story about how I built a recommendation system for an e-commerce (named Huimitu) system, using KNIME."
+    }
+  },
+  
+  "footer": {
+    "copyright": "Copyright © 2024 Do Vuong Phuc. All rights reserved."
+  }
+}

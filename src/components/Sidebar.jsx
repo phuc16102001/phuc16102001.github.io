@@ -1,6 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Sidebar = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="h-100 col-lg-3 offset-lg-1 text-center slider py-2 px-4">
       <div>
@@ -10,36 +14,36 @@ const Sidebar = () => {
           src={`${process.env.PUBLIC_URL}/img/others/avatar.jpg`}
         />
         <h1 className="fs-4 text-uppercase animate__animated animate__fadeIn">
-          <a className="highlight" href="/">Do Vuong Phuc</a>
+          <a className="highlight" href="/">{t('name')}</a>
         </h1>
         <div className="fw-light fs-6 animate__animated animate__fadeIn">
-          Software Engineer II @ Microsoft
+          {t('title')}
         </div>
       </div>
       <ul className="nav flex-column py-3">
         <li className="nav-item animate__fadeInLeft animate__animated">
-          <a href="#about" className="nav-link">About me</a>
+          <a href="#about" className="nav-link">{t('nav.about')}</a>
         </li>
         <li className="nav-item animate__fadeInLeft animate__animated">
-          <a href="#education" className="nav-link">Education</a>
+          <a href="#education" className="nav-link">{t('nav.education')}</a>
         </li>
         <li className="nav-item animate__fadeInLeft animate__animated">
-          <a href="#work" className="nav-link">Working experience</a>
+          <a href="#work" className="nav-link">{t('nav.work')}</a>
         </li>
         <li className="nav-item animate__fadeInLeft animate__animated">
-          <a href="#skills" className="nav-link">Technical skills</a>
+          <a href="#skills" className="nav-link">{t('nav.skills')}</a>
         </li>
         <li className="nav-item animate__fadeInLeft animate__animated">
-          <a href="#projects" className="nav-link">Selected projects</a>
+          <a href="#projects" className="nav-link">{t('nav.projects')}</a>
         </li>
         <li className="nav-item animate__fadeInLeft animate__animated">
-          <a href="#certificates" className="nav-link">Certificates</a>
+          <a href="#certificates" className="nav-link">{t('nav.certificates')}</a>
         </li>
         <li className="nav-item animate__fadeInLeft animate__animated">
-          <a href="#awards" className="nav-link">Awards</a>
+          <a href="#awards" className="nav-link">{t('nav.awards')}</a>
         </li>
         <li className="nav-item animate__fadeInLeft animate__animated">
-          <a href="#publications" className="nav-link">Publications</a>
+          <a href="#publications" className="nav-link">{t('nav.publications')}</a>
         </li>
       </ul>
       <div className="container px-5 animate__animated animate__fadeInUp">

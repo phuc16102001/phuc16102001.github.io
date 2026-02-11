@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+
 const projectsData = [
   {
     title: "Outlook",
@@ -44,10 +46,12 @@ const projectsData = [
 ];
 
 const Projects = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="section-heading" id="projects">
-        <h3>Project</h3>
+        <h3>{t('projects.title')}</h3>
       </div>
       <div className="container py-2">
         <div className="row row-cols-lg-3 row-cols-md-2 row-cols-1 pt-2">

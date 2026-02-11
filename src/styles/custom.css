@@ -285,3 +285,32 @@ a {
   color: var(--primary-color);
   transform: translateY(-3px);
 }
+
+/* Language Switcher */
+.language-switcher {
+  margin-bottom: 10px;
+}
+
+.lang-btn {
+  background: transparent;
+  border: none;
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.lang-btn:hover {
+  color: var(--sub-color);
+}
+
+.lang-btn.active {
+  color: var(--sub-color);
+  font-weight: bold;
+}
+
+.lang-separator {
+  color: var(--primary-color);
+  opacity: 0.5;
+}

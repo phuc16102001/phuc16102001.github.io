@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next';
+
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <div id="home" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
       <div className="carousel-indicators">
@@ -10,14 +14,14 @@ const Hero = () => {
         <div className="carousel-item active">
           <img src={`${process.env.PUBLIC_URL}/img/others/hcmus.gif`} className="d-block carousel-img" alt="resume" />
           <div className="pop-bg animate__animated animate__fadeInUp">
-            <h1 className="pop-title">Hi! This is Do Vuong Phuc</h1>
+            <h1 className="pop-title">{t('hero.greeting')}</h1>
             <div className="pop-description">
-              A software engineer at Microsoft with the enthusiasm in AI<br/>
-              Graduated as a valedictorian from the University of Science.
+              {t('hero.intro')}<br/>
+              {t('hero.graduated')}
             </div>
             <a target="_blank" rel="noopener noreferrer" href={`${process.env.PUBLIC_URL}/assets/resume.pdf`}>
               <button type="button" className="pop-btn btn btn-primary">
-                My resume
+                {t('hero.resumeBtn')}
               </button>
             </a>
           </div>
@@ -25,14 +29,14 @@ const Hero = () => {
         <div className="carousel-item">
           <img className="d-block carousel-img" src={`${process.env.PUBLIC_URL}/img/others/projects.png`} alt="projects" />
           <div className="pop-bg animate__animated animate__fadeInUp">
-            <h1 className="pop-title">Selected projects</h1>
+            <h1 className="pop-title">{t('hero.projectsTitle')}</h1>
             <div className="pop-description">
-              Not only interest in software technologies<br/>
-              I also research on machine learning models.
+              {t('hero.projectsDesc1')}<br/>
+              {t('hero.projectsDesc2')}
             </div>
             <a href="#projects">
               <button type="button" className="btn btn-primary pop-btn">
-                Projects
+                {t('hero.projectsBtn')}
               </button>
             </a>
           </div>
@@ -40,14 +44,14 @@ const Hero = () => {
         <div className="carousel-item">
           <img src={`${process.env.PUBLIC_URL}/img/others/work.jpg`} className="d-block carousel-img" alt="work" />
           <div className="pop-bg animate__animated animate__fadeInUp">
-            <h1 className="pop-title">My experience</h1>
+            <h1 className="pop-title">{t('hero.expTitle')}</h1>
             <div className="pop-description">
-              I always willing to contribute my talent for society.<br/>
-              Check-out my working experience!
+              {t('hero.expDesc1')}<br/>
+              {t('hero.expDesc2')}
             </div>
             <a href="#work">
               <button type="button" className="btn btn-primary pop-btn">
-                Working experience
+                {t('hero.expBtn')}
               </button>
             </a>
           </div>

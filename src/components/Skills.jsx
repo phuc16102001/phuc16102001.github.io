@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const skillCategories = [
   {
@@ -130,6 +131,7 @@ const skillCategories = [
 ];
 
 const Skills = () => {
+  const { t } = useTranslation();
   const [openCategory, setOpenCategory] = useState("language");
 
   const toggleCategory = (categoryId) => {
@@ -139,7 +141,7 @@ const Skills = () => {
   return (
     <>
       <div className="section-heading" id="skills">
-        <h3>Skills</h3>
+        <h3>{t('skills.title')}</h3>
       </div>
       <div className="section-content">
         <div className="accordion" id="accordionExample">
@@ -152,7 +154,7 @@ const Skills = () => {
                   onClick={() => toggleCategory(category.id)}
                   aria-expanded={openCategory === category.id}
                 >
-                  {category.title}
+                  {t(`skills.${category.id}`)}
                 </button>
               </h2>
               <div
