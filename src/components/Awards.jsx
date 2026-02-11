@@ -1,5 +1,3 @@
-import React from 'react';
-
 const awardsData = [
   {
     logo: "award/ms-hackathon-2025.png",

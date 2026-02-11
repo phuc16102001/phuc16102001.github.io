@@ -35,32 +35,6 @@ const workExperiences = [
     logo: "vbpo.jpg",
     market: "Vietnam market",
     description: "Research blockchain technologies and develop a blockchain-based application to digitalize real estates. Focus mainly in backend development and smart contract implement with NEAR and Aurora Engine."
-  },
-  {
-    title: "Programming Lecturer",
-    period: "Nov 2020 - Apr 2022",
-    company: "Teky Academy",
-    companyUrl: "http://teky.edu.vn/",
-    logo: "teky.jpg",
-    market: "Vietnam market",
-    description: "Teach programming & STEAM for children in the age of 12 to 18 year old. Tutoring in algorithms using Python language & application development with frameworks (e.g. Python Turtle, PyQt5, Wordpress)."
-  },
-  {
-    title: "Mobile/Backend Developer",
-    period: "2019 - 2020",
-    company: "CodeNGreen Ltd",
-    logo: "codengreen.jpg",
-    market: "Vietnam market",
-    description: "Develop mobile application and backend servers which connect with IoT device to automatically water gardens."
-  },
-  {
-    title: "Embedded Software Researcher",
-    period: "Apr 2018 - June 2018",
-    company: "FPO Company",
-    companyUrl: "https://fpo.vn/",
-    logo: "fpo.jpg",
-    market: "Vietnam/Korea market",
-    description: "Research embedded systems and write instruction blogs about designing softwares with IoT devices. Setup machines for AI labs (e.g. Raspberry Pi, 3D Printer)."
   }
 ];
 
