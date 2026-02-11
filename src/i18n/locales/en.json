@@ -89,7 +89,37 @@
   },
   
   "projects": {
-    "title": "Selected projects"
+    "title": "Selected projects",
+    "outlook": {
+      "title": "Outlook",
+      "subtitle": "Software | Microsoft",
+      "description": "Microsoft Outlook is a personal information manager and email client used by millions of users worldwide. Working on this project involves maintaining and developing new features for the email, calendar, contacts, and tasks functionality across web and desktop platforms."
+    },
+    "naverBlog": {
+      "title": "Blog (블로그)",
+      "subtitle": "Software | Naver",
+      "description": "Naver Blog is a social network which used to upload blogs. The service is used by many people in Korea, which has an extremely high traffic. In this project, we developed the map feature, which display blogs on Google Map & Naver Map. Moreover, we improved the RSS system."
+    },
+    "naverBboom": {
+      "title": "BBoom (뿜)",
+      "subtitle": "Software | Naver",
+      "description": "A social network which used to upload humour posts and memes, titled as Naver BBoom. With millions of user, we are maintaining and improving all it's services. A lot of legacy features were optimized by us which reduce the latency and make the service more secure."
+    },
+    "actionSpotting": {
+      "title": "Action Spotting",
+      "subtitle": "Machine learning | IJCNN",
+      "description": "A novel approach for precise action spotting in sports videos by unifying global and local scene entities modelling. The model achieved 1st place in SoccerNet-v2, FineDiving, and FineGym challenges. Published at IJCNN 2024."
+    },
+    "dqnSnake": {
+      "title": "DQN snake",
+      "subtitle": "Machine learning",
+      "description": "Implement a snake game as the training environment for Deep Q-learning Network (DQN) model. The DQN then integrated with A* algorithm to help my agent solve the game. After training & fine-tune, my agent achieved the 1st prize in the university contest."
+    },
+    "behaviourClassification": {
+      "title": "Behaviour classification",
+      "subtitle": "Machine learning",
+      "description": "An AI model which can detect user's pose from real-time camera then classify user's action. Compared to traditional action classification, this model can use frame-speed to distinguish similar actions (e.g. walk vs run) by leveraging MediaPipePose and LSTM."
+    }
   },
   
   "certificates": {
@@ -160,6 +190,6 @@
   },
   
   "footer": {
-    "copyright": "Copyright © 2024 Do Vuong Phuc. All rights reserved."
+    "copyright": "Copyright © 2026 Do Vuong Phuc. All rights reserved."
   }
 }

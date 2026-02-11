@@ -14,7 +14,7 @@
   },
   
   "hero": {
-    "greeting": "こんにちは！杜王福です",
+    "greeting": "おはよう！杜王福です",
     "intro": "AIに情熱を持つMicrosoftのソフトウェアエンジニア",
     "graduated": "ホーチミン市科学大学を首席で卒業しました。",
     "resumeBtn": "履歴書",
@@ -89,7 +89,37 @@
   },
   
   "projects": {
-    "title": "プロジェクト"
+    "title": "プロジェクト",
+    "outlook": {
+      "title": "Outlook",
+      "subtitle": "ソフトウェア | Microsoft",
+      "description": "Microsoft Outlookは、世界中の数百万人のユーザーに使用されている個人情報管理ツール兼メールクライアントです。このプロジェクトでは、Web及びデスクトッププラットフォームにおけるメール、カレンダー、連絡先、タスク機能の保守と新機能開発に携わっています。"
+    },
+    "naverBlog": {
+      "title": "Blog (블로그)",
+      "subtitle": "ソフトウェア | Naver",
+      "description": "Naver Blogは、ブログを投稿するためのソーシャルネットワークです。韓国で多くの人々に利用されており、非常に高いトラフィックがあります。このプロジェクトでは、Google MapとNaver Map上にブログを表示するマップ機能を開発しました。また、RSSシステムを改善しました。"
+    },
+    "naverBboom": {
+      "title": "BBoom (뿜)",
+      "subtitle": "ソフトウェア | Naver",
+      "description": "Naver BBoomは、ユーモア投稿やミームをアップロードするためのソーシャルネットワークです。数百万人のユーザーを持ち、全てのサービスの保守と改善を行っています。多くのレガシー機能を最適化し、レイテンシを削減してサービスをより安全にしました。"
+    },
+    "actionSpotting": {
+      "title": "Action Spotting",
+      "subtitle": "機械学習 | IJCNN",
+      "description": "グローバルとローカルのシーンエンティティモデリングを統合した、スポーツ動画における正確なアクションスポッティングの新しいアプローチ。SoccerNet-v2、FineDiving、FineGymチャレンジで1位を獲得。IJCNN 2024で発表。"
+    },
+    "dqnSnake": {
+      "title": "DQN Snake",
+      "subtitle": "機械学習",
+      "description": "Deep Q-learning Network（DQN）モデルのトレーニング環境としてスネークゲームを実装。DQNをA*アルゴリズムと統合してゲームを解決。トレーニングと微調整の後、大学コンテストで1位を獲得しました。"
+    },
+    "behaviourClassification": {
+      "title": "行動分類",
+      "subtitle": "機械学習",
+      "description": "リアルタイムカメラからユーザーのポーズを検出し、行動を分類できるAIモデル。従来の行動分類と比較して、MediaPipePoseとLSTMを活用してフレーム速度を使用し、類似した動作（歩行と走行など）を区別できます。"
+    }
   },
   
   "certificates": {
