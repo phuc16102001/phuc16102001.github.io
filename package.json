@@ -2,7 +2,7 @@
   "name": "phuc16102001.github.io",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://phuc16102001.github.io/",
+  "homepage": "https://phuc16102001.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
     "animate.css": "^4.1.1",
