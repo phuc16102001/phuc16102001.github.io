@@ -76,7 +76,7 @@ const skillCategories = [
     defaultOpen: false,
     cols: 3,
     skills: [
-      { name: "azure", logo: "azure.webp" },
+      { name: "azure", logo: "azure.png" },
       { name: "aws", logo: "aws.png" },
       { name: "naver-cloud", logo: "naver-cloud.jpg" }
     ]
