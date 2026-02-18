@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import Sidebar from './components/Sidebar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -15,7 +16,9 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
+  const { t } = useTranslation();
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const [showScrollDown, setShowScrollDown] = useState(true);
 
   useEffect(() => {
     // Initialize Bootstrap carousel after component mounts
@@ -27,9 +30,10 @@ function App() {
       });
     }
 
-    // Show/hide scroll-to-top button based on scroll position
+    // Show/hide scroll-to-top button and scroll-down indicator based on scroll position
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 300);
+      setShowScrollDown(window.scrollY <= 50);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -57,6 +61,13 @@ function App() {
           <Footer />
         </div>
       </div>
+      {showScrollDown && (
+        <div className="scroll-down-indicator">
+          <i className="fa-solid fa-chevron-down"></i>
+          <span>{t('scrollDown')}</span>
+          <i className="fa-solid fa-chevron-down"></i>
+        </div>
+      )}
       {showScrollTop && (
         <button className="scroll-to-top" onClick={scrollToTop} aria-label="Scroll to top">
           <i className="fa-solid fa-arrow-up"></i>

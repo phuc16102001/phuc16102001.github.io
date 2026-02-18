@@ -13,6 +13,8 @@
     "publications": "Publications"
   },
   
+  "scrollDown": "Scroll down for more detail",
+
   "hero": {
     "greeting": "Hi! This is Do Vuong Phuc",
     "intro": "A software engineer at Microsoft with the enthusiasm in AI",
@@ -30,7 +32,7 @@
   
   "about": {
     "title": "About me",
-    "p1": "A backend engineer with 3 YoE in software engineer field. I am goal-oriented, dedicated to my work, and always open to new experiences, especially those related to my field of study, to enhance my coding practice.",
+    "p1": "A mid-level backend engineer in software engineer field. I am goal-oriented, dedicated to my work, and always open to new experiences, especially those related to my field of study, to enhance my coding practice.",
     "p2": "I have gained many from being a leader of group projects, which is why problem-solving, presentation and leadership skills are not weaknesses of mine. I have a strong passion for software engineering and computer science, and I hope I can contribute to the development of society."
   },
   
