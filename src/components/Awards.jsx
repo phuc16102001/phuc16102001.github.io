@@ -4,7 +4,7 @@ const awardsData = [
   {
     id: "msHackathon",
     logo: "award/ms-hackathon-2025.png",
-    titleUrl: "https://www.credly.com/badges/9ee446bd-d7d5-47e6-8cb7-e165b2dc071d",
+    titleUrl: "certificate/ms_hackathon.pdf",
     organizationUrl: "https://www.credly.com/org/microsoftgarage"
   },
   {
