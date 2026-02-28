@@ -19,9 +19,9 @@ const Hero = () => {
               {t('hero.intro')}<br/>
               {t('hero.graduated')}
             </div>
-            <a target="_blank" rel="noopener noreferrer" href={`${process.env.PUBLIC_URL}/assets/resume.pdf`}>
+            <a href="#about">
               <button type="button" className="pop-btn btn btn-primary">
-                {t('hero.resumeBtn')}
+                {t('hero.aboutBtn')}
               </button>
             </a>
           </div>
